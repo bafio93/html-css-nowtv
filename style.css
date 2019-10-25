@@ -132,6 +132,9 @@ header {
     font-weight: normal;
 }
 
+/* Fine ribbon. */
+/* Inizio movies. */
+
 #movies img {
     max-width: 100%;
     border-right: 5px solid white;
@@ -140,6 +143,60 @@ header {
 #movies .col-lg-3:last-child img {
     border-right: none;
 }
+
+#movies::after {
+    clear: both;
+    display: table;
+    content: none;
+}
+
+/* Fine movies. */
+/* Inizio first-claim */
+
+#first-claim-container {
+    background-color: rgb(2,43,66);
+    height: 1000px;
+    border: 5px solid olive;
+    z-index: 200;
+}
+
+#first-claim {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#first-claim p {
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#first-claim h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+#first-claim img {
+    height: 90px;
+}
+
+#first-claim > div {
+    border: 1px solid salmon;
+    text-align: center;
+}
+
+#first-claim .col-lg-12 {
+    padding: 45px 0 30px;
+}
+
+#first-claim .col-lg-4 {
+    padding: 30px 10px;
+}
+
+/* Fine first claim. */
+/* Inizio @media. */
 
 @media screen and (max-width: 1440px) {
     #jumbo {
