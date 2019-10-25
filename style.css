@@ -27,6 +27,13 @@ a {
 main {
     padding-top: 60px;
 }
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
 /*** fine regole layout base ***/
 
 /*** header ***/
@@ -155,7 +162,6 @@ header {
 
 #first-claim-container {
     background-color: rgb(2,43,66);
-    height: 1000px;
     border: 5px solid olive;
     z-index: 200;
 }
