@@ -206,6 +206,7 @@ header {
     background-color: rgb(28,94,234);
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 #soccer h1 {
@@ -217,12 +218,12 @@ header {
 #soccer .button {
     padding-left: 30px;
     padding-right: 30px;
+    font-size: 80%;
 }
 
 #soccer div:last-of-type {
     height: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 /* Fine soccer. */
@@ -232,11 +233,28 @@ header {
     background-color: rgb(0,51,102);
     margin: 0 auto;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#smart-stick h1 {
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: white;
+}
+
+#smart-stick p {
+    color: white;
+}
+
+#smart-stick img {
+    margin: 50px 0 25px;
 }
 
 #smart-stick .button {
     padding-left: 30px;
     padding-right: 30px;
+    font-size: 80%;
 }
 
 /* Fine smart-stick. */
