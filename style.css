@@ -199,6 +199,14 @@ header {
     padding: 30px 10px;
 }
 
+@media screen and (max-width: 980px) {
+
+    #first-claim-container, #first-claim {
+        width: 100%;
+    }
+
+}
+
 /* Fine first claim. */
 /* Inizio soccer */
 
@@ -224,6 +232,10 @@ header {
 #soccer div:last-of-type {
     height: auto;
     margin-top: 30px;
+}
+
+#soccer img {
+    width: 100%;
 }
 
 /* Fine soccer. */
