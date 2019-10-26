@@ -286,14 +286,10 @@ footer #footer-container ul {
     line-height: 2.5;
 }
 
-footer #footer-container .col-lg-3:last-of-type a {
+footer #footer-container #social a {
     display: inline-block;
     margin: 0 10px;
     font-size: 25px;
-}
-
-footer #footer-container .col-lg-3, footer #disclaimer {
-    border: 1px solid goldenrod;
 }
 
 footer #disclaimer {
