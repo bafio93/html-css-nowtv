@@ -318,6 +318,50 @@ footer #disclaimer.col-lg-12 a {
     text-decoration: underline;
 }
 
+@media screen and (max-width:992px) {
+
+    footer #footer-container {
+        width: 100%;
+    }
+
+    footer #footer-container div:first-of-type {
+        margin-bottom: 40px;
+    }
+
+    footer #footer-container .col-md-5 {
+        padding: 0 20px;
+    }
+
+    footer #footer-container #social {
+        margin-top: 40px;
+    }
+
+    footer #footer-container .col-md-5 {
+        padding: 0 20px;
+    }
+
+    footer #footer-container li {
+        border-top: 1px solid rgb(85,85,89);
+    }
+
+    footer #footer-container li:last-of-type {
+        border-bottom: 1px solid rgb(85,85,89);
+    }
+
+    footer #footer-container {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    footer #footer-container ul:first-of-type li:last-of-type {
+        border-bottom: none;
+    }
+
+}
+
 /* Fine footer. */
 /* Inizio @media. */
 
