@@ -258,6 +258,59 @@ header {
 }
 
 /* Fine smart-stick. */
+/* Inizio footer. */
+
+footer {
+    background-color: rgb(28,28,33);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer #footer-container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+footer #footer-container img {
+    width: 100px;
+}
+
+footer #footer-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer #footer-container ul {
+    list-style: none;
+    line-height: 2.5;
+}
+
+footer #footer-container .col-lg-3:last-of-type a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+footer #footer-container .col-lg-3, footer #disclaimer {
+    border: 1px solid goldenrod;
+}
+
+footer #disclaimer {
+    margin-top: 40px;
+}
+
+footer #disclaimer.col-lg-12 p {
+    color: rgb(159,161,165);
+    font-size: 75%;
+}
+
+footer #disclaimer.col-lg-12 a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Fine footer. */
 /* Inizio @media. */
 
 @media screen and (max-width: 1440px) {
